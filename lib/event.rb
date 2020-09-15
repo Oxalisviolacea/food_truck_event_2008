@@ -27,14 +27,4 @@ class Event
     end
     sells_item
   end
-
-  # def potential_revenue
-  #   total_price = []
-  #   @food_trucks.each do |truck|
-  #     truck.inventory.each do |item|
-  #       require "pry"; binding.pry
-  #     end
-  #   end
-  #   total_price
-  # end
 end
