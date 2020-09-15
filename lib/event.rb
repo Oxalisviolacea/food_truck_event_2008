@@ -35,6 +35,6 @@ class Event
         event_items << item[0].name
       end
     end
-    event_items.uniq
+    event_items.uniq.sort
   end
 end
