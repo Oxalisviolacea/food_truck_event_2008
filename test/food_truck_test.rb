@@ -14,13 +14,13 @@ class FoodTruckTest < Minitest::Test
     assert_equal "Rocky Mountain Pies", @food_truck.name
   end
 
-  # def test_it_doesnt_have_inventory_initially
-  #   assert_equal ({}), @food_truck.inventory
-  # end
-  #
-  # def test_it_can_find_amount_of_item_in_stock
-  #   assert_equal 0, @food_truck.check_stock(@item1)
-  # end
+  def test_it_doesnt_have_inventory_initially
+    assert_equal ({}), @food_truck.inventory
+  end
+
+  def test_it_can_find_amount_of_item_in_stock
+    assert_equal 0, @food_truck.check_stock(@item1)
+  end
   #
   # def test_it_can_stock_inventory
   #   @food_truck.stock(@item1, 30)
